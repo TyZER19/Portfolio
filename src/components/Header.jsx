@@ -28,30 +28,9 @@ export default function Header({ activeSection }) {
     }
   }, [darkMode]);
 
-  const [showNav, setShowNav] = useState(true);
-
-  useEffect(() => {
-    let lastScrollY = window.scrollY;
-
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-
-      if (currentScrollY > lastScrollY && currentScrollY > 80) {
-        setShowNav(false);
-      } else {
-        setShowNav(true);
-      }
-
-      lastScrollY = currentScrollY;
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
   return (
-    <header className={showNav ? "navbar" : "navbar hidden"}>
+    <header className="header">
       <section className="header__section">
         <div className="header__container">
           <a href="#home" className="logo">
@@ -108,7 +87,7 @@ export default function Header({ activeSection }) {
               onClick={switchTheme}
             >
               <span className="header__actions_theme-icon">
-                {darkMode ? "☀" : "☾"}
+                {darkMode ? "☀︎" : "☾"}
               </span>
 
               <span className="header__actions_theme-circle"></span>
