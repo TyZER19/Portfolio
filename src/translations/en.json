@@ -1,0 +1,34 @@
+{
+  "about": "About",
+  "skills": "Skills",
+  "projects": "Projects",
+  "contact": "Contact",
+  "heroText": "Frontend Developer | HTML, CSS, JS, REACT Specialist",
+  "viewProjects": "⬇ View Projects",
+  "contactMe": "✉️ Contact me",
+  "aboutMe": "About Me",
+
+  "aboutTextOne": "Junior Front-end Developer and PROWEB graduate with a passion for creating modern, responsive, and user-friendly web interfaces.",
+  "aboutTextTwo": "Skilled in HTML, CSS, JavaScript, and React. Always learning, improving my skills, and building clean and practical web solutions.",
+
+  "skillsText": "Skills & Expertise",
+  "myProjects": "My Projects",
+  "view": "View ⭢",
+  "comingSoon": "Coming soon...",
+
+  "contactTitle": "Let's Work Together",
+  "contactText": "Have a project in mind? I'd love to hear about it!",
+
+  "yourName": "Your name",
+  "yourEmail": "Your email",
+  "yourPhone": "Your phone number",
+  "yourMessage": "Your message",
+  "sendMessage": "Send Message",
+
+		"email": "Email",
+		"phone": "Phone",
+		"location": "Location",
+
+		"bottomText": "© 2026 Abdujalolov Doniyor. All rights reserved."
+
+}

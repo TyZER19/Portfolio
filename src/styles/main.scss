@@ -1,0 +1,42 @@
+@use "./variables";
+@use "./global";
+@use "./header";
+@use "./hero";
+@use "./about";
+@use "./skills.scss";
+@use "./projects.scss";
+@use "./contact.scss";
+
+
+
+:root {
+  --bg: #e0dbdb;
+  --bg-card: #ffffff;
+
+  --text-primary: #18181b;
+  --text-secondary: #71717a;
+
+  --accent: #8b5cf6;
+  --accent-hover: #7c3aed;
+
+  --border: #e4e4e7;
+
+  --nav: rgba(228, 228, 231, 0.85);
+}
+
+:root.dark-theme {
+  --bg: #09090b;
+  --bg-card: #18181b;
+
+  --text-primary: #fafafa;
+  --text-secondary: #a1a1aa;
+
+  --accent: #8b5cf6;
+  --accent-hover: #7c3aed;
+
+  --border: #27272a;
+
+  --nav: rgba(23, 23, 27, 0.85);
+}
+
+

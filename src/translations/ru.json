@@ -1,0 +1,34 @@
+{
+  "about": "Обо мне",
+  "skills": "Навыки",
+  "projects": "Проекты",
+  "contact": "Контакты",
+  "heroText": "Frontend-разработчик | HTML, CSS, JS, REACT Специалист",
+  "viewProjects": "⬇ Смотреть проекты",
+  "contactMe": "✉️ Связатся со мной",
+  "aboutMe": "Обо мне",
+
+  "aboutTextOne": "Junior Front-end разработчик и выпускник PROWEB, увлечённый созданием современных, адаптивных и удобных для пользователей веб-интерфейсов.",
+  "aboutTextTwo": "Владею HTML, CSS, JavaScript и React. Постоянно учусь, развиваю свои навыки и создаю чистые и практичные веб-решения.",
+
+  "skillsText": "Навыки и компетенции",
+  "myProjects": "Мои проекты",
+  "view": "Смотреть ⭢",
+  "comingSoon": "Скоро...",
+
+  "contactTitle": "Давайте работать вместе",
+  "contactText": "Есть идея для проекта? Буду рад узнать о ней!",
+
+  "yourName": "Ваше имя",
+  "yourEmail": "Ваша почта",
+  "yourPhone": "Ваш номер телефона",
+  "yourMessage": "Ваше сообщение",
+  "sendMessage": "Отправить Сообщение",
+
+		"email": "Почта",
+		"phone": "Номер телефона",
+		"location": "Локация",
+
+		"bottomText": "© 2026 Abdujalolov Doniyor. Все права защищены."
+
+}

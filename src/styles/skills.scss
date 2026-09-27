@@ -1,0 +1,67 @@
+@use "./variables" as v;
+
+#skills {
+	scroll-margin-top: 100px;
+
+}
+
+.skills {
+
+	margin-bottom: 150px;
+
+	&__img {
+		width: 670px;
+		height: 380px;
+		border: 1px solid v.$accent;
+		border-radius: 30px;
+		box-shadow: 0 1px 15px v.$text-secondary;
+		transition: 0.3s ease;
+		&:hover {
+			transform: scale(1.02);
+		}
+	}
+
+	&__container {
+		background: none;
+		display: flex;
+		gap: 80px;
+		}
+	&__title {
+		text-align: center;
+		font-size: 40px;
+		color: v.$accent;
+		margin-bottom: 40px;
+		font-weight: 700;
+	}
+
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 30px;
+		justify-content: center;
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 8px;
+		border-radius: 30px;
+		background: v.$bg-card;
+		padding: 10px 15px;
+		transition: 0.3s ease;
+		cursor: grab;
+		& span {
+			font-weight: 700;
+			font-size: 25px;
+		}
+		&:hover {
+			box-shadow: 0 0 7px v.$bg-card;
+			transform: scale(1.1);
+		}
+	}
+	.icon {
+  width: 32px;
+  height: 32px;
+}
+}

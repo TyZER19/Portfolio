@@ -1,0 +1,50 @@
+@use "./variables" as v;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: v.$bg-dark;
+  color: v.$text-primary;
+  position: relative;
+  transition: background 0.2s linear;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  border: none;
+}
+
+.container {
+  max-width: 1380px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
+  background: v.$bg-card;
+  border-radius: 15px;
+}
+
+.main__bottom {
+  text-align: center;
+  padding: 40px;
+}
