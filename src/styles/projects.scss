@@ -58,9 +58,9 @@
 		background: v.$accent;
 		border-radius: 20px;
 		padding: 10px 15px;
+		display: inline-block;
 		transition: 0.3s ease;
 		color: #f0f0f0;
-		display: none;
 		&:hover {
 			background: v.$accent-hover;
 			box-shadow: 0 0 15px v.$bg-dark;

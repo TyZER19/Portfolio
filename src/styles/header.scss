@@ -1,7 +1,5 @@
 @use "./variables" as v;
 
-
-
 .header__container {
   position: fixed;
   left: 50%;
@@ -43,25 +41,9 @@
     color: v.$text-primary;
     font-weight: 700;
 
-    &::after {
-      content: "";
-      position: absolute;
-      left: 50%;
-      transform: translate(-50%);
-      bottom: -8px;
-      width: 0;
-      height: 2px;
-      background: v.$accent;
-      transition: width 0.3s ease;
-    }
-
     &:hover {
       transform: translateY(-3px);
       color: v.$accent;
-    }
-
-    &.active::after {
-      width: 100%;
     }
   }
 }

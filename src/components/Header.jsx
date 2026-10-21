@@ -1,7 +1,8 @@
+
 import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
-export default function Header({ activeSection }) {
+export default function Header() {
   const { i18n, t } = useTranslation();
 
   const switchLang = (lang) => {
@@ -28,7 +29,6 @@ export default function Header({ activeSection }) {
     }
   }, [darkMode]);
 
-
   return (
     <header className="header">
       <section className="header__section">
@@ -38,28 +38,19 @@ export default function Header({ activeSection }) {
           </a>
 
           <nav className="nav">
-            <a
-              href="#about"
-              className={`nav__links ${activeSection === "about" ? "active" : ""}`}
-            >
+            <a href="#about" className="nav__links">
               {t("about")}
             </a>
-            <a
-              href="#skills"
-              className={`nav__links ${activeSection === "skills" ? "active" : ""}`}
-            >
+
+            <a href="#skills" className="nav__links">
               {t("skills")}
             </a>
-            <a
-              href="#projects"
-              className={`nav__links ${activeSection === "projects" ? "active" : ""}`}
-            >
+
+            <a href="#projects" className="nav__links">
               {t("projects")}
             </a>
-            <a
-              href="#contact"
-              className={`nav__links ${activeSection === "contact" ? "active" : ""}`}
-            >
+
+            <a href="#contact" className="nav__links">
               {t("contact")}
             </a>
           </nav>
@@ -70,7 +61,6 @@ export default function Header({ activeSection }) {
                 className={i18n.language === "ru" ? "active" : ""}
                 onClick={() => switchLang("ru")}
               >
-                {" "}
                 RU
               </button>
 
